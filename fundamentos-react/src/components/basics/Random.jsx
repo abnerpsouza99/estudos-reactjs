@@ -6,7 +6,16 @@ export default function Random(props){
   }
   return (
     <div>
-      <h3>Número aleatório entre 1 e 10: <strong>{ getRandomNumber(props.min, props.max)}</strong></h3>
+      <h2>Desafio Valor Aleatório:</h2>
+      <p>
+        <strong>Valor Mínimo: </strong> {props.min}
+      </p>
+      <p>
+        <strong>Valor Máximo: </strong> {props.max}
+      </p>
+      <p>
+        <strong>Valor Resultante: </strong> {getRandomNumber(props.min, props.max)}
+      </p>
     </div>
   )
 }

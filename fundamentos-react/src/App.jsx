@@ -8,13 +8,14 @@ import Fragments from './components/basics/Fragments';
 export default () => {
   return (
     <div>
-      <Random min={1} max={10}/>
+      <Random min={2} max={5}/>
       <h1>Fundamentos Reactjs</h1>
       <Fragments />
       <WithParameter
         title="Situação aluno"
         student="Abner" grade={3.5} />
       <First />
+
     </div>
   )
 }
